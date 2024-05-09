@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="surface.cpp">
+      <Filter>template and libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="threads.cpp">
+      <Filter>template and libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="counters.cpp">
+      <Filter>template and libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>template and libraries\gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>template and libraries\gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>template and libraries\gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_sdl.cpp">
+      <Filter>template and libraries\gui\sdl bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="BBox.cpp">
+      <Filter>primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="FastBVH.cpp">
+      <Filter>accelerators\Fast-BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="RayGPU.cpp">
+      <Filter>renderers\ray tracing GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="LuxBVH.cpp">
+      <Filter>accelerators\Luxrays</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="surface.h">
+      <Filter>template and libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="threads.h">
+      <Filter>template and libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>template and libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="counters.h">
+      <Filter>template and libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Air.h">
+      <Filter>materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Flat.h">
+      <Filter>materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Shiny.h">
+      <Filter>materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Glass.h">
+      <Filter>materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Accelerator.h">
+      <Filter>accelerators</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>template and libraries\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>template and libraries\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>template and libraries\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>template and libraries\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>template and libraries\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>template and libraries\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_sdl.h">
+      <Filter>template and libraries\gui\sdl bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="BBox.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="NoAcceleration.h">
+      <Filter>accelerators\Naive</Filter>
+    </ClInclude>
+    <ClInclude Include="PBRT.h">
+      <Filter>accelerators\PBRT</Filter>
+    </ClInclude>
+    <ClInclude Include="FastBVH.h">
+      <Filter>accelerators\Fast-BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>template and libraries\obj loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCPU.h">
+      <Filter>renderers\ray tracing CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="RayGPU.h">
+      <Filter>renderers\ray tracing GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="LuxBVH.h">
+      <Filter>accelerators\Luxrays</Filter>
+    </ClInclude>
+    <ClInclude Include="MTL.h">
+      <Filter>materials</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="materials">
+      <UniqueIdentifier>{c0d2fe02-c0c7-4c1f-8d64-48ff743ad089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitives">
+      <UniqueIdentifier>{24fafa49-e3d0-4c65-90ea-6b7a6151780a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="accelerators">
+      <UniqueIdentifier>{65883eb9-0a6f-4597-8724-369b62d5cd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="accelerators\Naive">
+      <UniqueIdentifier>{f15818af-0476-4b38-9239-a2853d33d4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="accelerators\PBRT">
+      <UniqueIdentifier>{9530ce9f-8f94-4692-a170-c74f91b9061c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="accelerators\Fast-BVH">
+      <UniqueIdentifier>{c59b42a3-f461-490b-b4b1-f089bcc25ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template and libraries">
+      <UniqueIdentifier>{bf32dd6e-4be7-4889-8ac6-49e7ee163c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template and libraries\gui">
+      <UniqueIdentifier>{b46ad238-c588-40a0-8cda-c68693aaf795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template and libraries\gui\imgui">
+      <UniqueIdentifier>{641556ed-a25c-4719-b885-556b9c0968ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template and libraries\gui\sdl bindings">
+      <UniqueIdentifier>{710962a1-3282-406f-8364-ae95731e0d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template and libraries\obj loader">
+      <UniqueIdentifier>{c65165be-8adc-40ad-a04d-12d5943be035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderers">
+      <UniqueIdentifier>{7d6d2b66-7d56-4ffd-9261-30a93e394da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderers\ray tracing CPU">
+      <UniqueIdentifier>{0dc57708-7862-4740-a8d4-a74db6be83f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderers\ray tracing GPU">
+      <UniqueIdentifier>{fba9831c-f428-4143-a55c-4e10fa858bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{4ff1325f-f7c1-4cdf-b62b-e0486d9b128b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderers\ray tracing GPU\opencl kernels">
+      <UniqueIdentifier>{d59331df-ae69-4fc4-83b7-39335029c010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="accelerators\Luxrays">
+      <UniqueIdentifier>{1fee4c77-f253-4eeb-be5c-82187d90057a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="structs.cl">
+      <Filter>renderers\ray tracing GPU\opencl kernels</Filter>
+    </None>
+    <None Include="intersections.cl">
+      <Filter>renderers\ray tracing GPU\opencl kernels</Filter>
+    </None>
+    <None Include="shading.cl">
+      <Filter>renderers\ray tracing GPU\opencl kernels</Filter>
+    </None>
+    <None Include="main.cl">
+      <Filter>renderers\ray tracing GPU\opencl kernels</Filter>
+    </None>
+    <None Include="tracing.cl">
+      <Filter>renderers\ray tracing GPU\opencl kernels</Filter>
+    </None>
+    <None Include="declarations.cl">
+      <Filter>renderers\ray tracing GPU\opencl kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_readme.txt">
+      <Filter>template and libraries</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
